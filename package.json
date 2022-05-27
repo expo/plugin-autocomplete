@@ -1,9 +1,9 @@
 {
-  "name": "@oclif/plugin-autocomplete",
+  "name": "@expo/plugin-autocomplete",
   "description": "autocomplete plugin for oclif",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Salesforce",
-  "bugs": "https://github.com/oclif/plugin-autocomplete/issues",
+  "bugs": "https://github.com/expo/plugin-autocomplete/issues",
   "dependencies": {
     "@oclif/core": "^1.9.0",
     "chalk": "^4.1.0",
@@ -42,7 +42,7 @@
     "/lib",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/oclif/plugin-autocomplete",
+  "homepage": "https://github.com/expo/plugin-autocomplete",
   "keywords": [
     "oclif-plugin"
   ],
@@ -54,7 +54,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "oclif/plugin-autocomplete",
+  "repository": "expo/plugin-autocomplete",
   "scripts": {
     "lint": "eslint . --ext .ts --config .eslintrc",
     "pretest": "yarn build && tsc -p test",
